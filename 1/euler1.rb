@@ -1,1 +1,1 @@
-(1..1000).select{|n| (n % 3).zero? || (n % 5).zero? }.inject(&:+)
+(1..999).select{|n| (n % 3).zero? || (n % 5).zero? }.inject(&:+)
